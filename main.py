@@ -12,14 +12,14 @@ import ssl
 import re
 import os
 
-token = 'OTEyNDMxMDA2ODk0Njc0MDIw.YZv1mA.dJxkj55W1Faj_TxZjFZxXemb1Ts'
+token = 'bot token here'
 prefix = '/'
 
 intents = discord.Intents().all()
 bot = commands.Bot(command_prefix=prefix, case_insensitive=True, intents=intents)
 bot.remove_command('help')
 
-bots_channel = 912433567085248592
+bots_channel = channelIDHERE
 
 threads = 500 + 4
 queue = []
